@@ -5,7 +5,7 @@ with open("README.md", "r") as fh:
 
 setuptools.setup(
     name="django-timestamps",
-    version="0.0.3",
+    version="0.0.1",
     author="Adrian Cataldo",
     author_email="adrian.cataldo093@gmail.com",
     description="timestamps for django models",
