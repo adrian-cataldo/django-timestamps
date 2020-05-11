@@ -7,6 +7,9 @@ Adds created_at, updated_at, and/or deleted_at (soft-delete) to django models
 Usage
 =====
 
+Extend your model from SoftDeletionModel and/or TimestampsModel
+and run migrations
+
     from django.db import models
     from django_timestamps.softDeletion import SoftDeletionModel
     from django_timestamps.timestamps import TimestampsModel
