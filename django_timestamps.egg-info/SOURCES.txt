@@ -1,0 +1,11 @@
+README.md
+setup.py
+django_timestamps/SoftDeleteViewSet.py
+django_timestamps/__init__.py
+django_timestamps/apps.py
+django_timestamps/softDeletion.py
+django_timestamps/timestamps.py
+django_timestamps.egg-info/PKG-INFO
+django_timestamps.egg-info/SOURCES.txt
+django_timestamps.egg-info/dependency_links.txt
+django_timestamps.egg-info/top_level.txt

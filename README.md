@@ -39,15 +39,15 @@ To get all objects trashed
     devices_trashed = Device.all_objects.all().dead()
 
 
-for rest_framework:
+ModelViewSet for rest_framework:
 ===================
 
-Adds urls for soft-deleted elements, returns deleted_at
+Adds urls for soft-deleted elements, returns deleted_at:
 
     #Example for devices:
-    #    (get)   api/devices/trashed/       -> trashed elements, paginated
-    #    (get)   api/devices/4/get-trashed/ -> get trashed element
-    #    (patch) api/devices/4/restore/     -> restore trashed element
+    #    (get)   /devices/trashed/       -> trashed elements, paginated
+    #    (get)   /devices/4/get-trashed/ -> get trashed element
+    #    (patch) /devices/4/restore/     -> restore trashed element
 
     from django_timestamps.SoftDeleteViewSet import SoftDeletionModel
 
