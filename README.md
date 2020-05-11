@@ -49,7 +49,7 @@ Adds urls for soft-deleted elements, returns deleted_at:
     #    (get)   /devices/4/get-trashed/ -> get trashed element
     #    (patch) /devices/4/restore/     -> restore trashed element
 
-    from django_timestamps.SoftDeleteViewSet import SoftDeletionModel
+    from django_timestamps.SoftDeleteViewSet import SoftDeleteViewSet
 
     class DeviceViewSet(viewsets.ModelViewSet, SoftDeleteViewSet):
         queryset = Device.objects.all().order_by('id')
