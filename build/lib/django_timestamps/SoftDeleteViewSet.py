@@ -3,11 +3,10 @@ from rest_framework.response import Response
 from rest_framework.decorators import action
 
 """
-Adds urls for soft-deleted elements, returns deleted_at
-Example for centers:
-    (get)   api/centers/trashed/       -> trashed elements, paginated
-    (get)   api/centers/4/get-trashed/ -> get trashed element
-    (patch) api/centers/4/restore/     -> restore trashed element
+    #Example for devices:
+    #    (get)   /devices/trashed/       -> trashed elements, paginated
+    #    (get)   /devices/4/get-trashed/ -> get trashed element
+    #    (patch) /devices/4/restore/     -> restore trashed element
 """
 class SoftDeleteViewSet(viewsets.ViewSet):
 

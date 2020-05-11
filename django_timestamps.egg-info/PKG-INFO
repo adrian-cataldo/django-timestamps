@@ -1,6 +1,6 @@
 Metadata-Version: 2.1
 Name: django-timestamps
-Version: 0.0.3
+Version: 0.0.1
 Summary: timestamps for django models
 Home-page: https://github.com/adrian-cataldo/django-timestamps
 Author: Adrian Cataldo
@@ -57,7 +57,7 @@ Description:
             #    (get)   /devices/4/get-trashed/ -> get trashed element
             #    (patch) /devices/4/restore/     -> restore trashed element
         
-            from django_timestamps.SoftDeleteViewSet import SoftDeletionModel
+            from django_timestamps.SoftDeleteViewSet import SoftDeleteViewSet
         
             class DeviceViewSet(viewsets.ModelViewSet, SoftDeleteViewSet):
                 queryset = Device.objects.all().order_by('id')
