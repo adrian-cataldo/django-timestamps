@@ -11,7 +11,7 @@ setuptools.setup(
     description="timestamps for django models",
     long_description=long_description,
     long_description_content_type="text/markdown",
-    url="https://github.com/adrian-cataldo/django-timestaps",
+    url="https://github.com/adrian-cataldo/django-timestamps",
     packages=setuptools.find_packages(),
     classifiers=[
         "Programming Language :: Python :: 3",
